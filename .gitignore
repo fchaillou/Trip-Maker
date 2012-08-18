@@ -1,8 +1,26 @@
-/bin
-/gen
-/.apt_generated
-/.classpath
-/.factorypath
-/.settings
-/.project
-/target
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+#Generated files from androidannotations
+.apt_generated
+
+#eclipse config
+.classpath
+.factorypath
+.settings
+.project
+
